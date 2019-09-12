@@ -39,5 +39,62 @@ int main(int argc, char* args[]) {
     //}else
         //cout << "Too much" << endl;
 
+        //int girls;
+        //int boys;
+        //cout << "How many girls ?" << endl;
+        //cin >> girls;
+        //cout << "How many boys ?" << endl;
+        //cin >> boys;
+
+        //if(girls != 0){
+            //if (girls == boys && girls + boys >= 20){
+               // cout << "The party is excellent !!!" << endl;
+            //}
+            //else if (girls != boys && girls + boys >= 20){
+                //cout << "Quite cool party" << endl;
+            //}
+            //else if (girls + boys < 20){
+                //cout << "Average party" << endl;
+            //}
+        //}
+        //else {
+            //cout <<"Sausage party" << endl;
+        //}
+
+        //int name;
+        //for (name=1;name<=100;++name)
+            //cout<<"David Laszlo"<<endl;
+
+
+            //int even;
+
+            //for (even=1;even<=500;++even){
+                //if(even%2==0)
+                //cout<<even<<endl;
+        //}
+
+        //int numbera;
+        //int numberb;
+
+        //cout<<"Give me a number..."<<endl;
+
+        //cin>>numbera;
+
+        //for (numberb=1;numberb<=10;++numberb) {
+            //cout << numberb << " * " << numbera << " = " <<numberb * numbera << endl;
+        //}
+
+        int numbera;
+        int numberb;
+
+        cout<<"Give me two number..."<<endl;
+        cin>>numbera;
+        cin>>numberb;
+        if (numberb<numbera)
+            cout<<"The second number should be bigger.."<<endl;
+        while (numberb>numbera){
+            cout << numbera ++  <<endl;
+        }
+
 
 }
