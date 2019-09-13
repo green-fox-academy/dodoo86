@@ -72,6 +72,16 @@ int main(int argc, char* args[]) {
     }
     */
      //DOUBLE ITEMS
+    /*
+     int numlist[5] = {3,4,5,6,7};
+        cout<<numlist[0]*2<<","<<numlist[1]*2<<","<<numlist[2]*2<<","<<numlist[3]*2<<","<<numlist[4]*2<<endl;
+
+    //Other solution
+
+        for(int i = 0; i < sizeof(numlist)/sizeof(numlist[0]); i++) {
+            cout<<numlist[i]*2<<endl;
+        }
+        */
 
 
     return 0;
