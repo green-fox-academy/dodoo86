@@ -118,6 +118,13 @@ int main(int argc, char* args[]) {
         }
     }
 */
+        int number;
+         cout<<"Give me a number..."<<endl;
+         cin>>number;
+         for (int number = 1; number ;) {
+             cout << number <<endl;
+         }
+
     return 0;
 }
 
