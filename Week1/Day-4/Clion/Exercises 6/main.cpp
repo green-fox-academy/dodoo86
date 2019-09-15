@@ -118,12 +118,18 @@ int main(int argc, char* args[]) {
         }
     }
 */
-        int number;
-         cout<<"Give me a number..."<<endl;
-         cin>>number;
-         for (int number = 1; number ;) {
-             cout << number <<endl;
-         }
+    //building a triangle
+    /*
+
+    int fixnum = 2;
+    int number;
+    cout << "Give me a number.." <<endl;
+    cin >> number;
+    while (fixnum <= number){
+        cout << string(fixnum,'*')<<endl;
+        fixnum++;
+}
+     */
 
     return 0;
 }

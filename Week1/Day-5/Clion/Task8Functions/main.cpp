@@ -3,18 +3,59 @@
 
 using namespace std;
 
-void doubling();
+//DOUBLING --------------------------------------------------------------
+/*
+
+int doubling(int x);
 
 int main(int argc, char* args[]) {
 
-    doubling();
+    int baseNum = 123;
+    cout << doubling(baseNum) <<endl;
 
     return 0;
 }
-
-void doubling() {
-    std::cout << "" << std::endl;
+int doubling(int baseNum) {
+    baseNum*=2;
+    return baseNum;
 }
+*/
+//GREETER FUNCTION----------------------------------------------------------------------------
+/*
+void greet(string a);
+int main(int argc, char* args[]) {
+
+    string al = "Green Fox";
+    greet(al);
+
+
+    return 0;
+}
+void greet(string a){
+    cout<<"Greetings, dear " << a << "!" <<endl;
+
+}
+ */
+//APEND A --------------------------------------------------------------------------
+/*
+void appendAFunc(string& x);
+int main(int argc, char* args[]) {
+
+        string typo = "Chinchill";
+        appendAFunc(typo);
+        cout<< typo << endl;
+
+        return 0;
+}
+void appendAFunc(string& x){
+        x += "a";
+
+}
+ */
+//SUMMING-----------------------------------------------------------------------------------
+
+int main(int argc, char* args[]) {
+
 
 
 
