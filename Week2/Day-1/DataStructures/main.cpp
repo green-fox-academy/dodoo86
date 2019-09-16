@@ -142,6 +142,31 @@ int main(int argc, char* args[]) {
     }
 
     */
+    //PERSONAL FINANCES -------------------------------------------------------------
+    /*
+    vector<int>add = {500,1000,1250,175,800,120};
+    int sum;
+    for (int i = 0; i<add.size(); ++i){
+        sum += add[i];
+    }
+
+        cout<<"We spent: "<<sum<<" in total"<<endl;
+    int biggest;
+    for(int j = 0; j<add.size(); ++j){
+        if(add[j]>biggest) {
+            biggest = add[j];
+        }
+    }
+        cout<<"The biggest expense was: "<< biggest <<endl;
+    int small;
+    for(int x = 0; x < add.size(); ++x){
+        if (add[x]<small || x ==0) {
+            small = add[x];
+        }
+    }
+        cout<<"The smallest expense was: "<< small <<endl;
+    */
+
 
     return 0;
 }
