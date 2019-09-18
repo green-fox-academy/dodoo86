@@ -102,6 +102,43 @@ clean: CMakeFiles/task5.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/task8.dir
+
+# All Build rule for target.
+CMakeFiles/task8.dir/all:
+	$(MAKE) -f CMakeFiles/task8.dir/build.make CMakeFiles/task8.dir/depend
+	$(MAKE) -f CMakeFiles/task8.dir/build.make CMakeFiles/task8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles --progress-num=22,23,24 "Built target task8"
+.PHONY : CMakeFiles/task8.dir/all
+
+# Include target in all.
+all: CMakeFiles/task8.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/task8.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/task8.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/task8.dir/rule
+
+# Convenience name for target.
+task8: CMakeFiles/task8.dir/rule
+
+.PHONY : task8
+
+# clean rule for target.
+CMakeFiles/task8.dir/clean:
+	$(MAKE) -f CMakeFiles/task8.dir/build.make CMakeFiles/task8.dir/clean
+.PHONY : CMakeFiles/task8.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/task8.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/task4.dir
 
 # All Build rule for target.
@@ -135,6 +172,43 @@ CMakeFiles/task4.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/task4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/task7.dir
+
+# All Build rule for target.
+CMakeFiles/task7.dir/all:
+	$(MAKE) -f CMakeFiles/task7.dir/build.make CMakeFiles/task7.dir/depend
+	$(MAKE) -f CMakeFiles/task7.dir/build.make CMakeFiles/task7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles --progress-num=19,20,21 "Built target task7"
+.PHONY : CMakeFiles/task7.dir/all
+
+# Include target in all.
+all: CMakeFiles/task7.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/task7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/task7.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/task7.dir/rule
+
+# Convenience name for target.
+task7: CMakeFiles/task7.dir/rule
+
+.PHONY : task7
+
+# clean rule for target.
+CMakeFiles/task7.dir/clean:
+	$(MAKE) -f CMakeFiles/task7.dir/build.make CMakeFiles/task7.dir/clean
+.PHONY : CMakeFiles/task7.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/task7.dir/clean
 
 .PHONY : clean
 

@@ -87,6 +87,56 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="task8">
+				<Option output="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/task8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2_image.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2_ttf.framework/Headers"/>
+					<Add directory="/Users/User/Downloads/SDLFiles/SDL2_macOS/SDL2_plugins/SDL2_plugins/gfx/inc"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 task8"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task8/fast">
+				<Option output="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/task8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2_image.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2_ttf.framework/Headers"/>
+					<Add directory="/Users/User/Downloads/SDLFiles/SDL2_macOS/SDL2_plugins/SDL2_plugins/gfx/inc"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 task8/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="task4">
 				<Option output="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/task4" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug"/>
@@ -132,6 +182,56 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 task4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task7">
+				<Option output="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/task7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2_image.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2_ttf.framework/Headers"/>
+					<Add directory="/Users/User/Downloads/SDLFiles/SDL2_macOS/SDL2_plugins/SDL2_plugins/gfx/inc"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 task7"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task7/fast">
+				<Option output="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/task7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2_image.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2_ttf.framework/Headers"/>
+					<Add directory="/Users/User/Downloads/SDLFiles/SDL2_macOS/SDL2_plugins/SDL2_plugins/gfx/inc"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 task7/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -346,7 +446,9 @@
 		</Unit>
 		<Unit filename="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/main.cpp">
 			<Option target="task5"/>
+			<Option target="task8"/>
 			<Option target="task4"/>
+			<Option target="task7"/>
 			<Option target="draw"/>
 			<Option target="task3"/>
 			<Option target="task6"/>
@@ -381,6 +483,18 @@
 		</Unit>
 		<Unit filename="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/task6.h">
 			<Option target="task6"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/task7.cpp">
+			<Option target="task7"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/task7.h">
+			<Option target="task7"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/task8.cpp">
+			<Option target="task8"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/task8.h">
+			<Option target="task8"/>
 		</Unit>
 		<Unit filename="/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
