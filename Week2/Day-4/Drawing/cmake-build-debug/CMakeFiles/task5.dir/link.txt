@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/task5.dir/main.cpp.o CMakeFiles/task5.dir/task5.cpp.o  -o task5 -Wl,-rpath,/Library/Frameworks -framework SDL2 -framework Cocoa -framework SDL2_image -framework SDL2_ttf 

@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(SDL2_ROOT_PATH /Users/User/Downloads/SDLFiles/SDL2_macOS/SDL2_plugins)
 
-set(EXECUTABLES "draw;task2;task3;task4")
+set(EXECUTABLES "draw;task2;task3;task4;task5;task6")
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 IF(WIN32)

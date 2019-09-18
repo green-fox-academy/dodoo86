@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named task5
+
+# Build rule for target.
+task5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task5
+.PHONY : task5
+
+# fast build rule for target.
+task5/fast:
+	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/build
+.PHONY : task5/fast
+
+#=============================================================================
 # Target rules for targets named task4
 
 # Build rule for target.
@@ -148,6 +161,19 @@ task3: cmake_check_build_system
 task3/fast:
 	$(MAKE) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/build
 .PHONY : task3/fast
+
+#=============================================================================
+# Target rules for targets named task6
+
+# Build rule for target.
+task6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task6
+.PHONY : task6
+
+# fast build rule for target.
+task6/fast:
+	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/build
+.PHONY : task6/fast
 
 #=============================================================================
 # Target rules for targets named task2
@@ -195,9 +221,11 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
+	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/task4.dir/build.make CMakeFiles/task4.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
@@ -207,9 +235,11 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/task4.dir/build.make CMakeFiles/task4.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -219,9 +249,11 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/task4.dir/build.make CMakeFiles/task4.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
@@ -306,6 +338,60 @@ task4.cpp.s:
 	$(MAKE) -f CMakeFiles/task4.dir/build.make CMakeFiles/task4.dir/task4.cpp.s
 .PHONY : task4.cpp.s
 
+task5.o: task5.cpp.o
+
+.PHONY : task5.o
+
+# target to build an object file
+task5.cpp.o:
+	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/task5.cpp.o
+.PHONY : task5.cpp.o
+
+task5.i: task5.cpp.i
+
+.PHONY : task5.i
+
+# target to preprocess a source file
+task5.cpp.i:
+	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/task5.cpp.i
+.PHONY : task5.cpp.i
+
+task5.s: task5.cpp.s
+
+.PHONY : task5.s
+
+# target to generate assembly for a file
+task5.cpp.s:
+	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/task5.cpp.s
+.PHONY : task5.cpp.s
+
+task6.o: task6.cpp.o
+
+.PHONY : task6.o
+
+# target to build an object file
+task6.cpp.o:
+	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/task6.cpp.o
+.PHONY : task6.cpp.o
+
+task6.i: task6.cpp.i
+
+.PHONY : task6.i
+
+# target to preprocess a source file
+task6.cpp.i:
+	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/task6.cpp.i
+.PHONY : task6.cpp.i
+
+task6.s: task6.cpp.s
+
+.PHONY : task6.s
+
+# target to generate assembly for a file
+task6.cpp.s:
+	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/task6.cpp.s
+.PHONY : task6.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -313,11 +399,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... task5"
 	@echo "... task4"
 	@echo "... draw"
 	@echo "... task3"
+	@echo "... task6"
 	@echo "... task2"
-	@echo "... edit_cache"
 	@echo "... draw.o"
 	@echo "... draw.i"
 	@echo "... draw.s"
@@ -333,6 +421,12 @@ help:
 	@echo "... task4.o"
 	@echo "... task4.i"
 	@echo "... task4.s"
+	@echo "... task5.o"
+	@echo "... task5.i"
+	@echo "... task5.s"
+	@echo "... task6.o"
+	@echo "... task6.i"
+	@echo "... task6.s"
 .PHONY : help
 
 
