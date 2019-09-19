@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Project3.dir/main.cpp.o CMakeFiles/Project3.dir/Project3.cpp.o  -o Project3 -Wl,-rpath,/Library/Frameworks -framework SDL2 -framework Cocoa -framework SDL2_image -framework SDL2_ttf 

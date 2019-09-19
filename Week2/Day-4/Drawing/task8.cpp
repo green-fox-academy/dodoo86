@@ -10,6 +10,8 @@ void draw(SDL_Renderer* gRenderer){
     int y = 100;
 
     sqare(gRenderer, x, y);
+    sqare(gRenderer, x+80, y+80);
+    sqare(gRenderer, x, y+160);
 
 }
 void sqare(SDL_Renderer* gRenderer, int x, int y){

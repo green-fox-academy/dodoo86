@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named task6
+
+# Build rule for target.
+task6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task6
+.PHONY : task6
+
+# fast build rule for target.
+task6/fast:
+	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/build
+.PHONY : task6/fast
+
+#=============================================================================
 # Target rules for targets named task5
 
 # Build rule for target.
@@ -122,6 +135,58 @@ task5: cmake_check_build_system
 task5/fast:
 	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/build
 .PHONY : task5/fast
+
+#=============================================================================
+# Target rules for targets named Project3
+
+# Build rule for target.
+Project3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Project3
+.PHONY : Project3
+
+# fast build rule for target.
+Project3/fast:
+	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/build
+.PHONY : Project3/fast
+
+#=============================================================================
+# Target rules for targets named task2
+
+# Build rule for target.
+task2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2
+.PHONY : task2
+
+# fast build rule for target.
+task2/fast:
+	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/build
+.PHONY : task2/fast
+
+#=============================================================================
+# Target rules for targets named task7
+
+# Build rule for target.
+task7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task7
+.PHONY : task7
+
+# fast build rule for target.
+task7/fast:
+	$(MAKE) -f CMakeFiles/task7.dir/build.make CMakeFiles/task7.dir/build
+.PHONY : task7/fast
+
+#=============================================================================
+# Target rules for targets named project1
+
+# Build rule for target.
+project1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 project1
+.PHONY : project1
+
+# fast build rule for target.
+project1/fast:
+	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/build
+.PHONY : project1/fast
 
 #=============================================================================
 # Target rules for targets named task8
@@ -150,19 +215,6 @@ task4/fast:
 .PHONY : task4/fast
 
 #=============================================================================
-# Target rules for targets named task7
-
-# Build rule for target.
-task7: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 task7
-.PHONY : task7
-
-# fast build rule for target.
-task7/fast:
-	$(MAKE) -f CMakeFiles/task7.dir/build.make CMakeFiles/task7.dir/build
-.PHONY : task7/fast
-
-#=============================================================================
 # Target rules for targets named draw
 
 # Build rule for target.
@@ -188,31 +240,32 @@ task3/fast:
 	$(MAKE) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/build
 .PHONY : task3/fast
 
-#=============================================================================
-# Target rules for targets named task6
+Project3.o: Project3.cpp.o
 
-# Build rule for target.
-task6: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 task6
-.PHONY : task6
+.PHONY : Project3.o
 
-# fast build rule for target.
-task6/fast:
-	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/build
-.PHONY : task6/fast
+# target to build an object file
+Project3.cpp.o:
+	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/Project3.cpp.o
+.PHONY : Project3.cpp.o
 
-#=============================================================================
-# Target rules for targets named task2
+Project3.i: Project3.cpp.i
 
-# Build rule for target.
-task2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 task2
-.PHONY : task2
+.PHONY : Project3.i
 
-# fast build rule for target.
-task2/fast:
-	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/build
-.PHONY : task2/fast
+# target to preprocess a source file
+Project3.cpp.i:
+	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/Project3.cpp.i
+.PHONY : Project3.cpp.i
+
+Project3.s: Project3.cpp.s
+
+.PHONY : Project3.s
+
+# target to generate assembly for a file
+Project3.cpp.s:
+	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/Project3.cpp.s
+.PHONY : Project3.cpp.s
 
 draw.o: draw.cpp.o
 
@@ -247,14 +300,16 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
+	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/task7.dir/build.make CMakeFiles/task7.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/task8.dir/build.make CMakeFiles/task8.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/task4.dir/build.make CMakeFiles/task4.dir/main.cpp.o
-	$(MAKE) -f CMakeFiles/task7.dir/build.make CMakeFiles/task7.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/main.cpp.o
-	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/main.cpp.o
-	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -263,14 +318,16 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/task7.dir/build.make CMakeFiles/task7.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/task8.dir/build.make CMakeFiles/task8.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/task4.dir/build.make CMakeFiles/task4.dir/main.cpp.i
-	$(MAKE) -f CMakeFiles/task7.dir/build.make CMakeFiles/task7.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/main.cpp.i
-	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/main.cpp.i
-	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -279,15 +336,44 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/task7.dir/build.make CMakeFiles/task7.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/task8.dir/build.make CMakeFiles/task8.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/task4.dir/build.make CMakeFiles/task4.dir/main.cpp.s
-	$(MAKE) -f CMakeFiles/task7.dir/build.make CMakeFiles/task7.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/main.cpp.s
-	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/main.cpp.s
-	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+project1.o: project1.cpp.o
+
+.PHONY : project1.o
+
+# target to build an object file
+project1.cpp.o:
+	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/project1.cpp.o
+.PHONY : project1.cpp.o
+
+project1.i: project1.cpp.i
+
+.PHONY : project1.i
+
+# target to preprocess a source file
+project1.cpp.i:
+	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/project1.cpp.i
+.PHONY : project1.cpp.i
+
+project1.s: project1.cpp.s
+
+.PHONY : project1.s
+
+# target to generate assembly for a file
+project1.cpp.s:
+	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/project1.cpp.s
+.PHONY : project1.cpp.s
 
 task2.o: task2.cpp.o
 
@@ -484,22 +570,30 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
+	@echo "... task6"
 	@echo "... edit_cache"
 	@echo "... task5"
+	@echo "... rebuild_cache"
+	@echo "... Project3"
+	@echo "... task2"
+	@echo "... task7"
+	@echo "... project1"
 	@echo "... task8"
 	@echo "... task4"
-	@echo "... task7"
 	@echo "... draw"
 	@echo "... task3"
-	@echo "... task6"
-	@echo "... task2"
+	@echo "... Project3.o"
+	@echo "... Project3.i"
+	@echo "... Project3.s"
 	@echo "... draw.o"
 	@echo "... draw.i"
 	@echo "... draw.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... project1.o"
+	@echo "... project1.i"
+	@echo "... project1.s"
 	@echo "... task2.o"
 	@echo "... task2.i"
 	@echo "... task2.s"
