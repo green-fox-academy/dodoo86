@@ -124,6 +124,19 @@ task6/fast:
 .PHONY : task6/fast
 
 #=============================================================================
+# Target rules for targets named project2
+
+# Build rule for target.
+project2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 project2
+.PHONY : project2
+
+# fast build rule for target.
+project2/fast:
+	$(MAKE) -f CMakeFiles/project2.dir/build.make CMakeFiles/project2.dir/build
+.PHONY : project2/fast
+
+#=============================================================================
 # Target rules for targets named task5
 
 # Build rule for target.
@@ -228,6 +241,19 @@ draw/fast:
 .PHONY : draw/fast
 
 #=============================================================================
+# Target rules for targets named project4
+
+# Build rule for target.
+project4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 project4
+.PHONY : project4
+
+# fast build rule for target.
+project4/fast:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/build
+.PHONY : project4/fast
+
+#=============================================================================
 # Target rules for targets named task3
 
 # Build rule for target.
@@ -301,6 +327,7 @@ main.o: main.cpp.o
 # target to build an object file
 main.cpp.o:
 	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/project2.dir/build.make CMakeFiles/project2.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/main.cpp.o
@@ -309,6 +336,7 @@ main.cpp.o:
 	$(MAKE) -f CMakeFiles/task8.dir/build.make CMakeFiles/task8.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/task4.dir/build.make CMakeFiles/task4.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/main.cpp.o
 .PHONY : main.cpp.o
 
@@ -319,6 +347,7 @@ main.i: main.cpp.i
 # target to preprocess a source file
 main.cpp.i:
 	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/project2.dir/build.make CMakeFiles/project2.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/main.cpp.i
@@ -327,6 +356,7 @@ main.cpp.i:
 	$(MAKE) -f CMakeFiles/task8.dir/build.make CMakeFiles/task8.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/task4.dir/build.make CMakeFiles/task4.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -337,6 +367,7 @@ main.s: main.cpp.s
 # target to generate assembly for a file
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/project2.dir/build.make CMakeFiles/project2.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/main.cpp.s
@@ -345,6 +376,7 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/task8.dir/build.make CMakeFiles/task8.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/task4.dir/build.make CMakeFiles/task4.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/draw.dir/build.make CMakeFiles/draw.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
@@ -374,6 +406,60 @@ project1.s: project1.cpp.s
 project1.cpp.s:
 	$(MAKE) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/project1.cpp.s
 .PHONY : project1.cpp.s
+
+project2.o: project2.cpp.o
+
+.PHONY : project2.o
+
+# target to build an object file
+project2.cpp.o:
+	$(MAKE) -f CMakeFiles/project2.dir/build.make CMakeFiles/project2.dir/project2.cpp.o
+.PHONY : project2.cpp.o
+
+project2.i: project2.cpp.i
+
+.PHONY : project2.i
+
+# target to preprocess a source file
+project2.cpp.i:
+	$(MAKE) -f CMakeFiles/project2.dir/build.make CMakeFiles/project2.dir/project2.cpp.i
+.PHONY : project2.cpp.i
+
+project2.s: project2.cpp.s
+
+.PHONY : project2.s
+
+# target to generate assembly for a file
+project2.cpp.s:
+	$(MAKE) -f CMakeFiles/project2.dir/build.make CMakeFiles/project2.dir/project2.cpp.s
+.PHONY : project2.cpp.s
+
+project4.o: project4.cpp.o
+
+.PHONY : project4.o
+
+# target to build an object file
+project4.cpp.o:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/project4.cpp.o
+.PHONY : project4.cpp.o
+
+project4.i: project4.cpp.i
+
+.PHONY : project4.i
+
+# target to preprocess a source file
+project4.cpp.i:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/project4.cpp.i
+.PHONY : project4.cpp.i
+
+project4.s: project4.cpp.s
+
+.PHONY : project4.s
+
+# target to generate assembly for a file
+project4.cpp.s:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/project4.cpp.s
+.PHONY : project4.cpp.s
 
 task2.o: task2.cpp.o
 
@@ -570,8 +656,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... task6"
 	@echo "... edit_cache"
+	@echo "... task6"
+	@echo "... project2"
 	@echo "... task5"
 	@echo "... rebuild_cache"
 	@echo "... Project3"
@@ -581,6 +668,7 @@ help:
 	@echo "... task8"
 	@echo "... task4"
 	@echo "... draw"
+	@echo "... project4"
 	@echo "... task3"
 	@echo "... Project3.o"
 	@echo "... Project3.i"
@@ -594,6 +682,12 @@ help:
 	@echo "... project1.o"
 	@echo "... project1.i"
 	@echo "... project1.s"
+	@echo "... project2.o"
+	@echo "... project2.i"
+	@echo "... project2.s"
+	@echo "... project4.o"
+	@echo "... project4.i"
+	@echo "... project4.s"
 	@echo "... task2.o"
 	@echo "... task2.i"
 	@echo "... task2.s"

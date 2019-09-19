@@ -59,6 +59,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/task6.dir/DependInfo.cmake"
+  "CMakeFiles/project2.dir/DependInfo.cmake"
   "CMakeFiles/task5.dir/DependInfo.cmake"
   "CMakeFiles/Project3.dir/DependInfo.cmake"
   "CMakeFiles/task2.dir/DependInfo.cmake"
@@ -67,5 +68,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/task8.dir/DependInfo.cmake"
   "CMakeFiles/task4.dir/DependInfo.cmake"
   "CMakeFiles/draw.dir/DependInfo.cmake"
+  "CMakeFiles/project4.dir/DependInfo.cmake"
   "CMakeFiles/task3.dir/DependInfo.cmake"
   )

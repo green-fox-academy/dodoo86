@@ -1,5 +1,6 @@
-/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles/task6.dir
 /Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles/task6.dir
+/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles/project2.dir
 /Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles/task5.dir
 /Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles/Project3.dir
@@ -9,4 +10,5 @@
 /Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles/task8.dir
 /Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles/task4.dir
 /Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles/draw.dir
+/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles/project4.dir
 /Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/cmake-build-debug/CMakeFiles/task3.dir
