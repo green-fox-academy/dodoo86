@@ -137,6 +137,19 @@ project2/fast:
 .PHONY : project2/fast
 
 #=============================================================================
+# Target rules for targets named project5
+
+# Build rule for target.
+project5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 project5
+.PHONY : project5
+
+# fast build rule for target.
+project5/fast:
+	$(MAKE) -f CMakeFiles/project5.dir/build.make CMakeFiles/project5.dir/build
+.PHONY : project5/fast
+
+#=============================================================================
 # Target rules for targets named task5
 
 # Build rule for target.
@@ -328,6 +341,7 @@ main.o: main.cpp.o
 main.cpp.o:
 	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/project2.dir/build.make CMakeFiles/project2.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/project5.dir/build.make CMakeFiles/project5.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/main.cpp.o
@@ -348,6 +362,7 @@ main.i: main.cpp.i
 main.cpp.i:
 	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/project2.dir/build.make CMakeFiles/project2.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/project5.dir/build.make CMakeFiles/project5.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/main.cpp.i
@@ -368,6 +383,7 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/project2.dir/build.make CMakeFiles/project2.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/project5.dir/build.make CMakeFiles/project5.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/task5.dir/build.make CMakeFiles/task5.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/Project3.dir/build.make CMakeFiles/Project3.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/main.cpp.s
@@ -460,6 +476,33 @@ project4.s: project4.cpp.s
 project4.cpp.s:
 	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/project4.cpp.s
 .PHONY : project4.cpp.s
+
+project5.o: project5.cpp.o
+
+.PHONY : project5.o
+
+# target to build an object file
+project5.cpp.o:
+	$(MAKE) -f CMakeFiles/project5.dir/build.make CMakeFiles/project5.dir/project5.cpp.o
+.PHONY : project5.cpp.o
+
+project5.i: project5.cpp.i
+
+.PHONY : project5.i
+
+# target to preprocess a source file
+project5.cpp.i:
+	$(MAKE) -f CMakeFiles/project5.dir/build.make CMakeFiles/project5.dir/project5.cpp.i
+.PHONY : project5.cpp.i
+
+project5.s: project5.cpp.s
+
+.PHONY : project5.s
+
+# target to generate assembly for a file
+project5.cpp.s:
+	$(MAKE) -f CMakeFiles/project5.dir/build.make CMakeFiles/project5.dir/project5.cpp.s
+.PHONY : project5.cpp.s
 
 task2.o: task2.cpp.o
 
@@ -659,6 +702,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... task6"
 	@echo "... project2"
+	@echo "... project5"
 	@echo "... task5"
 	@echo "... rebuild_cache"
 	@echo "... Project3"
@@ -688,6 +732,9 @@ help:
 	@echo "... project4.o"
 	@echo "... project4.i"
 	@echo "... project4.s"
+	@echo "... project5.o"
+	@echo "... project5.i"
+	@echo "... project5.s"
 	@echo "... task2.o"
 	@echo "... task2.i"
 	@echo "... task2.s"
