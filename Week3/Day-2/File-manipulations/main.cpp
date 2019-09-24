@@ -90,3 +90,80 @@ int main() {
 }
 
  */
+//WRITE SINGLE LINE------------------------------------------------------------
+/*
+
+int main() {
+        ofstream myFile;
+        myFile.exceptions(ofstream::failbit | ofstream::badbit);
+        try {
+            myFile.open("new_File.txt");
+            string str = "Laszlo David Tamas";
+            myFile << str;
+            myFile.close();
+        } catch (ofstream::failure& e) {
+            cout << e.what() <<endl;
+        }
+        return 0;
+}
+
+ */
+//WRITE MULTIPLE LINES------------------------------------------------------------------
+/*
+
+int main() {
+
+    int number;
+    string word;
+    string path;
+    cout<<"Give me the filename:  "<<endl;
+    cin>>path;
+    cout<<"Give me a word..or more:  "<<endl;
+    cin>>word;
+    cout<<"Give me a number"<<endl;
+    cin>>number;
+
+    ofstream myFile;
+
+        myFile.open(path);
+        string str = word;
+        for (int i=0; i< number;++i){
+            myFile <<str<<endl;
+        }
+        myFile.close();
+
+    return 0;
+}
+
+*/
+//COPY FILES-----------------------------------------------------------------------------------
+
+
+int main() {
+    string fileA;
+    string fileB;
+    string line;
+    cout<<"Give me a filename:  "<<endl;
+    cin>>fileA;
+    cout<<"Give me another filename:  "<<endl;
+    cin>>fileB;
+    cout<<"give me some text"<<endl;
+    cin>>line;
+
+    ofstream first;
+    ofstream second;
+    first.open(fileA);
+    second.open(fileB);
+    string str = line;
+    first << str;
+    second << str;
+    first.close();
+    second.close();
+
+
+
+
+
+
+    return 0;
+}
