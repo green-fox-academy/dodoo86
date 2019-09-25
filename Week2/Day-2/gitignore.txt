@@ -1,5 +1,10 @@
-# Created by https://www.gitignore.io/api/c,c++,clion
-# Edit at https://www.gitignore.io/?templates=c,c++,clion
+# Created by https://www.gitignore.io/api/c,c++,code,clion
+# Edit at https://www.gitignore.io/?templates=c,c++,code,clion
+
+# Perfecting this so it works from the root directory of GreenFox/dodoo86
+
+/**/**/**/cmake*/**
+/**/**/**/.idea/**
 
 ### C ###
 # Prerequisites
@@ -155,4 +160,11 @@ fabric.properties
 # Sonarlint plugin
 .idea/sonarlint
 
-# End of https://www.gitignore.io/api/c,c++,clion
+### Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# End of https://www.gitignore.io/api/c,c++,code,clion
