@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/User/GreenFox/dodoo86/Week3/Day-3/Sharpie/Sharpie.h
+iostream
+-
+string
+-
+
+/Users/User/GreenFox/dodoo86/Week3/Day-3/Sharpie/main.cpp
+iostream
+-
+Sharpie.h
+/Users/User/GreenFox/dodoo86/Week3/Day-3/Sharpie/Sharpie.h
+

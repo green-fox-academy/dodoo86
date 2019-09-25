@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/User/GreenFox/dodoo86/Week3/Day-3/Animal/Animal.cpp
+iostream
+-
+string
+-
+Animal.h
+/Users/User/GreenFox/dodoo86/Week3/Day-3/Animal/Animal.h
+
+/Users/User/GreenFox/dodoo86/Week3/Day-3/Animal/Animal.h
+iostream
+-
+string
+-
+
+/Users/User/GreenFox/dodoo86/Week3/Day-3/Animal/main.cpp
+iostream
+-
+Animal.h
+/Users/User/GreenFox/dodoo86/Week3/Day-3/Animal/Animal.h
+
