@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/User/GreenFox/dodoo86/Week3/Day-4/Pokemon_TM/main.cpp
+iostream
+-
+vector
+-
+pokemon.h
+/Users/User/GreenFox/dodoo86/Week3/Day-4/Pokemon_TM/pokemon.h
+
+/Users/User/GreenFox/dodoo86/Week3/Day-4/Pokemon_TM/pokemon.h
+iostream
+-
+
