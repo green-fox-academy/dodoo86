@@ -46,8 +46,8 @@ CMakeFiles/task5.dir/main.cpp.o: /Library/Frameworks/SDL2.framework/Headers/SDL_
 CMakeFiles/task5.dir/main.cpp.o: /Library/Frameworks/SDL2.framework/Headers/SDL_video.h
 CMakeFiles/task5.dir/main.cpp.o: /Library/Frameworks/SDL2.framework/Headers/begin_code.h
 CMakeFiles/task5.dir/main.cpp.o: /Library/Frameworks/SDL2.framework/Headers/close_code.h
-CMakeFiles/task5.dir/main.cpp.o: ../draw.h
 CMakeFiles/task5.dir/main.cpp.o: ../main.cpp
+CMakeFiles/task5.dir/main.cpp.o: ../project1.h
 
 CMakeFiles/task5.dir/task5.cpp.o: /Library/Frameworks/SDL2.framework/Headers/SDL.h
 CMakeFiles/task5.dir/task5.cpp.o: /Library/Frameworks/SDL2.framework/Headers/SDL_assert.h

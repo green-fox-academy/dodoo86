@@ -606,11 +606,15 @@ close_code.h
 
 /Library/Frameworks/SDL2.framework/Headers/close_code.h
 
-/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/task3.cpp
-task3.h
-/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/task3.h
+/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/main.cpp
+iostream
+-
+SDL.h
+-
+project1.h
+/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/project1.h
 
-/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/task3.h
+/Users/User/GreenFox/dodoo86/Week2/Day-4/Drawing/project1.h
 SDL.h
 -
 

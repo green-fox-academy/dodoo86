@@ -1,0 +1,3 @@
+/Users/User/GreenFox/dodoo86/Week3/Day-5/SumDigits/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/User/GreenFox/dodoo86/Week3/Day-5/SumDigits/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/User/GreenFox/dodoo86/Week3/Day-5/SumDigits/cmake-build-debug/CMakeFiles/SumDigits.dir
