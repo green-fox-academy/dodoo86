@@ -123,6 +123,33 @@ GFOrganization/fast:
 	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/build
 .PHONY : GFOrganization/fast
 
+Cohort.o: Cohort.cpp.o
+
+.PHONY : Cohort.o
+
+# target to build an object file
+Cohort.cpp.o:
+	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/Cohort.cpp.o
+.PHONY : Cohort.cpp.o
+
+Cohort.i: Cohort.cpp.i
+
+.PHONY : Cohort.i
+
+# target to preprocess a source file
+Cohort.cpp.i:
+	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/Cohort.cpp.i
+.PHONY : Cohort.cpp.i
+
+Cohort.s: Cohort.cpp.s
+
+.PHONY : Cohort.s
+
+# target to generate assembly for a file
+Cohort.cpp.s:
+	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/Cohort.cpp.s
+.PHONY : Cohort.cpp.s
+
 Mentor.o: Mentor.cpp.o
 
 .PHONY : Mentor.o
@@ -267,6 +294,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... GFOrganization"
+	@echo "... Cohort.o"
+	@echo "... Cohort.i"
+	@echo "... Cohort.s"
 	@echo "... Mentor.o"
 	@echo "... Mentor.i"
 	@echo "... Mentor.s"

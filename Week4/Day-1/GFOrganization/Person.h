@@ -5,21 +5,19 @@
 
 using namespace std;
 
+
 class Person
 {
 public:
     Person();
-    Person(string name,int age, string gender);
-    void introduce();
-    void getGoal();
-
+    Person(string name, int age, string gender);
+    virtual void introduce();
+    virtual void getGoal();
 
 protected:
     string _name;
     int _age;
     string _gender;
-
-
 };
 
 

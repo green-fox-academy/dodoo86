@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Cohort.cpp">
+			<Option target="GFOrganization"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Cohort.h">
+			<Option target="GFOrganization"/>
+		</Unit>
 		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Mentor.cpp">
 			<Option target="GFOrganization"/>
 		</Unit>

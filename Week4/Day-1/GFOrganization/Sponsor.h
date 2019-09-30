@@ -1,17 +1,15 @@
-//
-// Created by David T Laszlo on 2019. 09. 30..
-//
-
 #ifndef GFORGANIZATION_SPONSOR_H
 #define GFORGANIZATION_SPONSOR_H
 
-
 #include "Person.h"
 
-class Sponsor: public Person {
+using namespace std;
+
+
+class Sponsor : public Person {
 public:
     Sponsor();
-    Sponsor(string name, int age, string gender,string company,int hiredStudents);
+    Sponsor(string name, int age, string gender, string company);
     void introduce();
     void hire();
     void getGoal();
@@ -19,8 +17,6 @@ public:
 protected:
     string _company;
     int _hiredStudents;
-
-
 };
 
 

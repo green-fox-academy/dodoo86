@@ -1,9 +1,10 @@
-#include <iostream>
 #include "Person.h"
 #include "Student.h"
 #include "Mentor.h"
 #include "Sponsor.h"
-#include <string>
+#include "Cohort.h"
+
+
 
 int main()
 {

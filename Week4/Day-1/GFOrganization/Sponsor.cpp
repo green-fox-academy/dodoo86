@@ -19,3 +19,11 @@ void Sponsor::hire() {
 void Sponsor::getGoal() {
     cout<<"My goal is: Hire brilliant junior software developers."<<endl;
 }
+
+Sponsor::Sponsor(string name, int age, string gender, string company) {
+    _name = name;
+    _age = age;
+    _gender = gender;
+    _company =company;
+    _hiredStudents = 0;
+}

@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/GFOrganization.dir/Student.cpp.o"
   "CMakeFiles/GFOrganization.dir/Mentor.cpp.o"
   "CMakeFiles/GFOrganization.dir/Sponsor.cpp.o"
+  "CMakeFiles/GFOrganization.dir/Cohort.cpp.o"
   "GFOrganization.pdb"
   "GFOrganization"
 )

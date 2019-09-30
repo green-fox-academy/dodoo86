@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Person.h
+iostream
+-
+string
+-
+
+/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Student.cpp
+Student.h
+/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Student.h
+
+/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Student.h
+Person.h
+/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Person.h
+
