@@ -59,45 +59,45 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/User/GreenFox/dodoo86/Week4/Day-1/GreenFoxOrganization
+CMAKE_SOURCE_DIR = /Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/User/GreenFox/dodoo86/Week4/Day-1/GreenFoxOrganization/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/GreenFoxOrganization.dir
+# Target rules for target CMakeFiles/GFOrganization.dir
 
 # All Build rule for target.
-CMakeFiles/GreenFoxOrganization.dir/all:
-	$(MAKE) -f CMakeFiles/GreenFoxOrganization.dir/build.make CMakeFiles/GreenFoxOrganization.dir/depend
-	$(MAKE) -f CMakeFiles/GreenFoxOrganization.dir/build.make CMakeFiles/GreenFoxOrganization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/User/GreenFox/dodoo86/Week4/Day-1/GreenFoxOrganization/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target GreenFoxOrganization"
-.PHONY : CMakeFiles/GreenFoxOrganization.dir/all
+CMakeFiles/GFOrganization.dir/all:
+	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/depend
+	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target GFOrganization"
+.PHONY : CMakeFiles/GFOrganization.dir/all
 
 # Include target in all.
-all: CMakeFiles/GreenFoxOrganization.dir/all
+all: CMakeFiles/GFOrganization.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/GreenFoxOrganization.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/User/GreenFox/dodoo86/Week4/Day-1/GreenFoxOrganization/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/GreenFoxOrganization.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/User/GreenFox/dodoo86/Week4/Day-1/GreenFoxOrganization/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/GreenFoxOrganization.dir/rule
+CMakeFiles/GFOrganization.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/GFOrganization.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/GFOrganization.dir/rule
 
 # Convenience name for target.
-GreenFoxOrganization: CMakeFiles/GreenFoxOrganization.dir/rule
+GFOrganization: CMakeFiles/GFOrganization.dir/rule
 
-.PHONY : GreenFoxOrganization
-
-# clean rule for target.
-CMakeFiles/GreenFoxOrganization.dir/clean:
-	$(MAKE) -f CMakeFiles/GreenFoxOrganization.dir/build.make CMakeFiles/GreenFoxOrganization.dir/clean
-.PHONY : CMakeFiles/GreenFoxOrganization.dir/clean
+.PHONY : GFOrganization
 
 # clean rule for target.
-clean: CMakeFiles/GreenFoxOrganization.dir/clean
+CMakeFiles/GFOrganization.dir/clean:
+	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/clean
+.PHONY : CMakeFiles/GFOrganization.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/GFOrganization.dir/clean
 
 .PHONY : clean
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/GreenFoxOrganization.iml" filepath="$PROJECT_DIR$/.idea/GreenFoxOrganization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/GFOrganization.iml" filepath="$PROJECT_DIR$/.idea/GFOrganization.iml" />
     </modules>
   </component>
 </project>

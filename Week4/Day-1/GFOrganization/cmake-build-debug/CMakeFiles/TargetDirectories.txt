@@ -1,0 +1,3 @@
+/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles/GFOrganization.dir
