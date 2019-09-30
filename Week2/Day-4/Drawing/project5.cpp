@@ -17,27 +17,27 @@ void draw(SDL_Renderer* gRenderer){
         SDL_RenderDrawLine(gRenderer, 280, 420 - i, 290, 440 - i);
         SDL_RenderDrawLine(gRenderer, 290, 440 - i, 310, 440 - i);
         SDL_RenderDrawLine(gRenderer, 310, 440 - i, 320, 420 - i);
+    }
+
+    for (int a = 0; a < 240; a += 40) {
+        int h = 30;
+        int up = 20;
 
 
-        for (int a = 0; a < 240; a += 40) {
-            int h = 30;
-            int up = 20;
+        SDL_RenderDrawLine(gRenderer, 290 + h, (360 - a) + up, 310 + h, (360 - a) + up);
+        SDL_RenderDrawLine(gRenderer, 290 + h, (360 - a) + up, 280 + h, (380 - a) + up);
+        SDL_RenderDrawLine(gRenderer, 310 + h, (360 - a) + up, 320 + h, (380 - a) + up);
+        SDL_RenderDrawLine(gRenderer, 280 + h, (380 - a) + up, 290 + h, (400 - a) + up);
+        SDL_RenderDrawLine(gRenderer, 290 + h, (400 - a) + up, 310 + h, (400 - a) + up);
+        SDL_RenderDrawLine(gRenderer, 310 + h, (400 - a) + up, 320 + h, (380 - a) + up);
 
 
-            SDL_RenderDrawLine(gRenderer, 290 + h, (360 - a) + up, 310 + h, (360 - a) + up);
-            SDL_RenderDrawLine(gRenderer, 290 + h, (360 - a) + up, 280 + h, (380 - a) + up);
-            SDL_RenderDrawLine(gRenderer, 310 + h, (360 - a) + up, 320 + h, (380 - a) + up);
-            SDL_RenderDrawLine(gRenderer, 280 + h, (380 - a) + up, 290 + h, (400 - a) + up);
-            SDL_RenderDrawLine(gRenderer, 290 + h, (400 - a) + up, 310 + h, (400 - a) + up);
-            SDL_RenderDrawLine(gRenderer, 310 + h, (400 - a) + up, 320 + h, (380 - a) + up);
-
-
-            SDL_RenderDrawLine(gRenderer, 290 - h, (360 - a) + up, 310 - h, (360 - a) + up);
-            SDL_RenderDrawLine(gRenderer, 290 - h, (360 - a) + up, 280 - h, (380 - a) + up);
-            SDL_RenderDrawLine(gRenderer, 310 - h, (360 - a) + up, 320 - h, (380 - a) + up);
-            SDL_RenderDrawLine(gRenderer, 280 - h, (380 - a) + up, 290 - h, (400 - a) + up);
-            SDL_RenderDrawLine(gRenderer, 290 - h, (400 - a) + up, 310 - h, (400 - a) + up);
-            SDL_RenderDrawLine(gRenderer, 310 - h, (400 - a) + up, 320 - h, (380 - a) + up);
+        SDL_RenderDrawLine(gRenderer, 290 - h, (360 - a) + up, 310 - h, (360 - a) + up);
+        SDL_RenderDrawLine(gRenderer, 290 - h, (360 - a) + up, 280 - h, (380 - a) + up);
+        SDL_RenderDrawLine(gRenderer, 310 - h, (360 - a) + up, 320 - h, (380 - a) + up);
+        SDL_RenderDrawLine(gRenderer, 280 - h, (380 - a) + up, 290 - h, (400 - a) + up);
+        SDL_RenderDrawLine(gRenderer, 290 - h, (400 - a) + up, 310 - h, (400 - a) + up);
+        SDL_RenderDrawLine(gRenderer, 310 - h, (400 - a) + up, 320 - h, (380 - a) + up);
 
             for (int b = 0; b < 200; b += 40) {
 
@@ -76,4 +76,3 @@ void draw(SDL_Renderer* gRenderer){
 
         }
     }
-}
