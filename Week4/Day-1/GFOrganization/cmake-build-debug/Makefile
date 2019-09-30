@@ -123,6 +123,33 @@ GFOrganization/fast:
 	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/build
 .PHONY : GFOrganization/fast
 
+Mentor.o: Mentor.cpp.o
+
+.PHONY : Mentor.o
+
+# target to build an object file
+Mentor.cpp.o:
+	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/Mentor.cpp.o
+.PHONY : Mentor.cpp.o
+
+Mentor.i: Mentor.cpp.i
+
+.PHONY : Mentor.i
+
+# target to preprocess a source file
+Mentor.cpp.i:
+	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/Mentor.cpp.i
+.PHONY : Mentor.cpp.i
+
+Mentor.s: Mentor.cpp.s
+
+.PHONY : Mentor.s
+
+# target to generate assembly for a file
+Mentor.cpp.s:
+	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/Mentor.cpp.s
+.PHONY : Mentor.cpp.s
+
 Person.o: Person.cpp.o
 
 .PHONY : Person.o
@@ -149,6 +176,33 @@ Person.s: Person.cpp.s
 Person.cpp.s:
 	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/Person.cpp.s
 .PHONY : Person.cpp.s
+
+Sponsor.o: Sponsor.cpp.o
+
+.PHONY : Sponsor.o
+
+# target to build an object file
+Sponsor.cpp.o:
+	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/Sponsor.cpp.o
+.PHONY : Sponsor.cpp.o
+
+Sponsor.i: Sponsor.cpp.i
+
+.PHONY : Sponsor.i
+
+# target to preprocess a source file
+Sponsor.cpp.i:
+	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/Sponsor.cpp.i
+.PHONY : Sponsor.cpp.i
+
+Sponsor.s: Sponsor.cpp.s
+
+.PHONY : Sponsor.s
+
+# target to generate assembly for a file
+Sponsor.cpp.s:
+	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/Sponsor.cpp.s
+.PHONY : Sponsor.cpp.s
 
 Student.o: Student.cpp.o
 
@@ -213,9 +267,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... GFOrganization"
+	@echo "... Mentor.o"
+	@echo "... Mentor.i"
+	@echo "... Mentor.s"
 	@echo "... Person.o"
 	@echo "... Person.i"
 	@echo "... Person.s"
+	@echo "... Sponsor.o"
+	@echo "... Sponsor.i"
+	@echo "... Sponsor.s"
 	@echo "... Student.o"
 	@echo "... Student.i"
 	@echo "... Student.s"

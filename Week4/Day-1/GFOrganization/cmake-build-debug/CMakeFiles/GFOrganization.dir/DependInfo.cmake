@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Mentor.cpp" "/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles/GFOrganization.dir/Mentor.cpp.o"
   "/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Person.cpp" "/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles/GFOrganization.dir/Person.cpp.o"
+  "/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Sponsor.cpp" "/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles/GFOrganization.dir/Sponsor.cpp.o"
   "/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Student.cpp" "/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles/GFOrganization.dir/Student.cpp.o"
   "/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/main.cpp" "/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles/GFOrganization.dir/main.cpp.o"
   )

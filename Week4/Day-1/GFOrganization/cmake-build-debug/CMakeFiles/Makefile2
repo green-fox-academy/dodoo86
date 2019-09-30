@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake
 CMakeFiles/GFOrganization.dir/all:
 	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/depend
 	$(MAKE) -f CMakeFiles/GFOrganization.dir/build.make CMakeFiles/GFOrganization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target GFOrganization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target GFOrganization"
 .PHONY : CMakeFiles/GFOrganization.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/GFOrganization.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GFOrganization.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/GFOrganization.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/GFOrganization.dir/rule

@@ -80,10 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Mentor.cpp">
+			<Option target="GFOrganization"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Mentor.h">
+			<Option target="GFOrganization"/>
+		</Unit>
 		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Person.cpp">
 			<Option target="GFOrganization"/>
 		</Unit>
 		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Person.h">
+			<Option target="GFOrganization"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Sponsor.cpp">
+			<Option target="GFOrganization"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Sponsor.h">
 			<Option target="GFOrganization"/>
 		</Unit>
 		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-1/GFOrganization/Student.cpp">

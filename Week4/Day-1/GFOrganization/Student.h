@@ -1,12 +1,21 @@
-//
-// Created by David T Laszlo on 2019. 09. 30..
-//
-
 #ifndef GFORGANIZATION_STUDENT_H
 #define GFORGANIZATION_STUDENT_H
 
 
-class Student {
+#include "Person.h"
+
+class Student : public Person{
+public:
+    Student();
+    Student (string name, int age, string gender,string previousOrganization);
+    void getGoal();
+    void introduce();
+    void skippedDays(Student numberOfDays);
+protected:
+    string _previousOrganization;
+    int _skippedDays;
+    int _numberOfDays;
+
 
 };
 
