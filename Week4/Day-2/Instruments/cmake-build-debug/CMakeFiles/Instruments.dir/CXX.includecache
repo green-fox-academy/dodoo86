@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/BassGuitar.h
+StringedInstrument.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/StringedInstrument.h
+
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/ElectricGuitar.h
+StringedInstrument.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/StringedInstrument.h
+
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Instrument.h
+string
+-
+
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/StringedInstrument.h
+Instrument.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Instrument.h
+
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Violin.h
+StringedInstrument.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/StringedInstrument.h
+
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/main.cpp
+iostream
+-
+ElectricGuitar.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/ElectricGuitar.h
+BassGuitar.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/BassGuitar.h
+Violin.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Violin.h
+

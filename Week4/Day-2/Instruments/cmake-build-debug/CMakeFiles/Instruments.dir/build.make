@@ -70,17 +70,92 @@ CMakeFiles/Instruments.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Instruments.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/main.cpp -o CMakeFiles/Instruments.dir/main.cpp.s
 
+CMakeFiles/Instruments.dir/Instrument.cpp.o: CMakeFiles/Instruments.dir/flags.make
+CMakeFiles/Instruments.dir/Instrument.cpp.o: ../Instrument.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Instruments.dir/Instrument.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Instruments.dir/Instrument.cpp.o -c /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Instrument.cpp
+
+CMakeFiles/Instruments.dir/Instrument.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Instruments.dir/Instrument.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Instrument.cpp > CMakeFiles/Instruments.dir/Instrument.cpp.i
+
+CMakeFiles/Instruments.dir/Instrument.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Instruments.dir/Instrument.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Instrument.cpp -o CMakeFiles/Instruments.dir/Instrument.cpp.s
+
+CMakeFiles/Instruments.dir/StringedInstrument.cpp.o: CMakeFiles/Instruments.dir/flags.make
+CMakeFiles/Instruments.dir/StringedInstrument.cpp.o: ../StringedInstrument.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Instruments.dir/StringedInstrument.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Instruments.dir/StringedInstrument.cpp.o -c /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/StringedInstrument.cpp
+
+CMakeFiles/Instruments.dir/StringedInstrument.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Instruments.dir/StringedInstrument.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/StringedInstrument.cpp > CMakeFiles/Instruments.dir/StringedInstrument.cpp.i
+
+CMakeFiles/Instruments.dir/StringedInstrument.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Instruments.dir/StringedInstrument.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/StringedInstrument.cpp -o CMakeFiles/Instruments.dir/StringedInstrument.cpp.s
+
+CMakeFiles/Instruments.dir/ElectricGuitar.cpp.o: CMakeFiles/Instruments.dir/flags.make
+CMakeFiles/Instruments.dir/ElectricGuitar.cpp.o: ../ElectricGuitar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Instruments.dir/ElectricGuitar.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Instruments.dir/ElectricGuitar.cpp.o -c /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/ElectricGuitar.cpp
+
+CMakeFiles/Instruments.dir/ElectricGuitar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Instruments.dir/ElectricGuitar.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/ElectricGuitar.cpp > CMakeFiles/Instruments.dir/ElectricGuitar.cpp.i
+
+CMakeFiles/Instruments.dir/ElectricGuitar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Instruments.dir/ElectricGuitar.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/ElectricGuitar.cpp -o CMakeFiles/Instruments.dir/ElectricGuitar.cpp.s
+
+CMakeFiles/Instruments.dir/BassGuitar.cpp.o: CMakeFiles/Instruments.dir/flags.make
+CMakeFiles/Instruments.dir/BassGuitar.cpp.o: ../BassGuitar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Instruments.dir/BassGuitar.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Instruments.dir/BassGuitar.cpp.o -c /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/BassGuitar.cpp
+
+CMakeFiles/Instruments.dir/BassGuitar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Instruments.dir/BassGuitar.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/BassGuitar.cpp > CMakeFiles/Instruments.dir/BassGuitar.cpp.i
+
+CMakeFiles/Instruments.dir/BassGuitar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Instruments.dir/BassGuitar.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/BassGuitar.cpp -o CMakeFiles/Instruments.dir/BassGuitar.cpp.s
+
+CMakeFiles/Instruments.dir/Violin.cpp.o: CMakeFiles/Instruments.dir/flags.make
+CMakeFiles/Instruments.dir/Violin.cpp.o: ../Violin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Instruments.dir/Violin.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Instruments.dir/Violin.cpp.o -c /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Violin.cpp
+
+CMakeFiles/Instruments.dir/Violin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Instruments.dir/Violin.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Violin.cpp > CMakeFiles/Instruments.dir/Violin.cpp.i
+
+CMakeFiles/Instruments.dir/Violin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Instruments.dir/Violin.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Violin.cpp -o CMakeFiles/Instruments.dir/Violin.cpp.s
+
 # Object files for target Instruments
 Instruments_OBJECTS = \
-"CMakeFiles/Instruments.dir/main.cpp.o"
+"CMakeFiles/Instruments.dir/main.cpp.o" \
+"CMakeFiles/Instruments.dir/Instrument.cpp.o" \
+"CMakeFiles/Instruments.dir/StringedInstrument.cpp.o" \
+"CMakeFiles/Instruments.dir/ElectricGuitar.cpp.o" \
+"CMakeFiles/Instruments.dir/BassGuitar.cpp.o" \
+"CMakeFiles/Instruments.dir/Violin.cpp.o"
 
 # External object files for target Instruments
 Instruments_EXTERNAL_OBJECTS =
 
 Instruments: CMakeFiles/Instruments.dir/main.cpp.o
+Instruments: CMakeFiles/Instruments.dir/Instrument.cpp.o
+Instruments: CMakeFiles/Instruments.dir/StringedInstrument.cpp.o
+Instruments: CMakeFiles/Instruments.dir/ElectricGuitar.cpp.o
+Instruments: CMakeFiles/Instruments.dir/BassGuitar.cpp.o
+Instruments: CMakeFiles/Instruments.dir/Violin.cpp.o
 Instruments: CMakeFiles/Instruments.dir/build.make
 Instruments: CMakeFiles/Instruments.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Instruments"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Instruments"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Instruments.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

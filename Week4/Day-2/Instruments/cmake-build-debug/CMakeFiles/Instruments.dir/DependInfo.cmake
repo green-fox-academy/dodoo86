@@ -4,6 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/BassGuitar.cpp" "/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/cmake-build-debug/CMakeFiles/Instruments.dir/BassGuitar.cpp.o"
+  "/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/ElectricGuitar.cpp" "/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/cmake-build-debug/CMakeFiles/Instruments.dir/ElectricGuitar.cpp.o"
+  "/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Instrument.cpp" "/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/cmake-build-debug/CMakeFiles/Instruments.dir/Instrument.cpp.o"
+  "/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/StringedInstrument.cpp" "/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/cmake-build-debug/CMakeFiles/Instruments.dir/StringedInstrument.cpp.o"
+  "/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Violin.cpp" "/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/cmake-build-debug/CMakeFiles/Instruments.dir/Violin.cpp.o"
   "/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/main.cpp" "/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/cmake-build-debug/CMakeFiles/Instruments.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

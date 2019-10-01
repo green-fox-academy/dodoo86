@@ -80,6 +80,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/BassGuitar.cpp">
+			<Option target="Instruments"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/BassGuitar.h">
+			<Option target="Instruments"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/ElectricGuitar.cpp">
+			<Option target="Instruments"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/ElectricGuitar.h">
+			<Option target="Instruments"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Instrument.cpp">
+			<Option target="Instruments"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Instrument.h">
+			<Option target="Instruments"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/StringedInstrument.cpp">
+			<Option target="Instruments"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/StringedInstrument.h">
+			<Option target="Instruments"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Violin.cpp">
+			<Option target="Instruments"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/Violin.h">
+			<Option target="Instruments"/>
+		</Unit>
 		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Instruments/main.cpp">
 			<Option target="Instruments"/>
 		</Unit>

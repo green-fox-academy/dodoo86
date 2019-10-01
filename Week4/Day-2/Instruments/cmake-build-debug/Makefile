@@ -123,6 +123,141 @@ Instruments/fast:
 	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/build
 .PHONY : Instruments/fast
 
+BassGuitar.o: BassGuitar.cpp.o
+
+.PHONY : BassGuitar.o
+
+# target to build an object file
+BassGuitar.cpp.o:
+	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/BassGuitar.cpp.o
+.PHONY : BassGuitar.cpp.o
+
+BassGuitar.i: BassGuitar.cpp.i
+
+.PHONY : BassGuitar.i
+
+# target to preprocess a source file
+BassGuitar.cpp.i:
+	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/BassGuitar.cpp.i
+.PHONY : BassGuitar.cpp.i
+
+BassGuitar.s: BassGuitar.cpp.s
+
+.PHONY : BassGuitar.s
+
+# target to generate assembly for a file
+BassGuitar.cpp.s:
+	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/BassGuitar.cpp.s
+.PHONY : BassGuitar.cpp.s
+
+ElectricGuitar.o: ElectricGuitar.cpp.o
+
+.PHONY : ElectricGuitar.o
+
+# target to build an object file
+ElectricGuitar.cpp.o:
+	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/ElectricGuitar.cpp.o
+.PHONY : ElectricGuitar.cpp.o
+
+ElectricGuitar.i: ElectricGuitar.cpp.i
+
+.PHONY : ElectricGuitar.i
+
+# target to preprocess a source file
+ElectricGuitar.cpp.i:
+	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/ElectricGuitar.cpp.i
+.PHONY : ElectricGuitar.cpp.i
+
+ElectricGuitar.s: ElectricGuitar.cpp.s
+
+.PHONY : ElectricGuitar.s
+
+# target to generate assembly for a file
+ElectricGuitar.cpp.s:
+	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/ElectricGuitar.cpp.s
+.PHONY : ElectricGuitar.cpp.s
+
+Instrument.o: Instrument.cpp.o
+
+.PHONY : Instrument.o
+
+# target to build an object file
+Instrument.cpp.o:
+	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/Instrument.cpp.o
+.PHONY : Instrument.cpp.o
+
+Instrument.i: Instrument.cpp.i
+
+.PHONY : Instrument.i
+
+# target to preprocess a source file
+Instrument.cpp.i:
+	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/Instrument.cpp.i
+.PHONY : Instrument.cpp.i
+
+Instrument.s: Instrument.cpp.s
+
+.PHONY : Instrument.s
+
+# target to generate assembly for a file
+Instrument.cpp.s:
+	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/Instrument.cpp.s
+.PHONY : Instrument.cpp.s
+
+StringedInstrument.o: StringedInstrument.cpp.o
+
+.PHONY : StringedInstrument.o
+
+# target to build an object file
+StringedInstrument.cpp.o:
+	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/StringedInstrument.cpp.o
+.PHONY : StringedInstrument.cpp.o
+
+StringedInstrument.i: StringedInstrument.cpp.i
+
+.PHONY : StringedInstrument.i
+
+# target to preprocess a source file
+StringedInstrument.cpp.i:
+	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/StringedInstrument.cpp.i
+.PHONY : StringedInstrument.cpp.i
+
+StringedInstrument.s: StringedInstrument.cpp.s
+
+.PHONY : StringedInstrument.s
+
+# target to generate assembly for a file
+StringedInstrument.cpp.s:
+	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/StringedInstrument.cpp.s
+.PHONY : StringedInstrument.cpp.s
+
+Violin.o: Violin.cpp.o
+
+.PHONY : Violin.o
+
+# target to build an object file
+Violin.cpp.o:
+	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/Violin.cpp.o
+.PHONY : Violin.cpp.o
+
+Violin.i: Violin.cpp.i
+
+.PHONY : Violin.i
+
+# target to preprocess a source file
+Violin.cpp.i:
+	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/Violin.cpp.i
+.PHONY : Violin.cpp.i
+
+Violin.s: Violin.cpp.s
+
+.PHONY : Violin.s
+
+# target to generate assembly for a file
+Violin.cpp.s:
+	$(MAKE) -f CMakeFiles/Instruments.dir/build.make CMakeFiles/Instruments.dir/Violin.cpp.s
+.PHONY : Violin.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +294,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Instruments"
+	@echo "... BassGuitar.o"
+	@echo "... BassGuitar.i"
+	@echo "... BassGuitar.s"
+	@echo "... ElectricGuitar.o"
+	@echo "... ElectricGuitar.i"
+	@echo "... ElectricGuitar.s"
+	@echo "... Instrument.o"
+	@echo "... Instrument.i"
+	@echo "... Instrument.s"
+	@echo "... StringedInstrument.o"
+	@echo "... StringedInstrument.i"
+	@echo "... StringedInstrument.s"
+	@echo "... Violin.o"
+	@echo "... Violin.i"
+	@echo "... Violin.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
