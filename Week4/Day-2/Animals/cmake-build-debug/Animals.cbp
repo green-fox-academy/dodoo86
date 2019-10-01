@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Animals"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Animals">
+				<Option output="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Animals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 Animals"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Animals/fast">
+				<Option output="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Animals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 Animals/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Animal.cpp">
+			<Option target="Animals"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Animal.h">
+			<Option target="Animals"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Bird.cpp">
+			<Option target="Animals"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Bird.h">
+			<Option target="Animals"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Mammal.cpp">
+			<Option target="Animals"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Mammal.h">
+			<Option target="Animals"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Reptile.cpp">
+			<Option target="Animals"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Reptile.h">
+			<Option target="Animals"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/main.cpp">
+			<Option target="Animals"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

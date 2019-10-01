@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Animals.dir/main.cpp.o CMakeFiles/Animals.dir/Animal.cpp.o CMakeFiles/Animals.dir/Mammal.cpp.o CMakeFiles/Animals.dir/Reptile.cpp.o CMakeFiles/Animals.dir/Bird.cpp.o  -o Animals 

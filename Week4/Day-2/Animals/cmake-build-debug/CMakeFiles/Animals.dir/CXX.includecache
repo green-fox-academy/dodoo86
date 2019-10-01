@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Animal.h
+string
+-
+
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Bird.cpp
+iostream
+-
+Bird.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Bird.h
+
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Bird.h
+Animal.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Animal.h
+
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Mammal.h
+Animal.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Animal.h
+
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Reptile.cpp
+Reptile.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Reptile.h
+
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Reptile.h
+Animal.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Animal.h
+
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/main.cpp
+iostream
+-
+Bird.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Bird.h
+Mammal.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Mammal.h
+Reptile.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Reptile.h
+Animal.h
+/Users/User/GreenFox/dodoo86/Week4/Day-2/Animals/Animal.h
+
