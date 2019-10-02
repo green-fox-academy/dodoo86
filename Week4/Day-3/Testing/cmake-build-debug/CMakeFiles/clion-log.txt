@@ -1,0 +1,11 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/User/GreenFox/dodoo86/Week4/Day-3/Testing
+CMake Error at CMakeLists.txt:24 (add_subdirectory):
+  add_subdirectory called with incorrect number of arguments
+
+
+CMake Error at CMakeLists.txt:25 (add_subdirectory):
+  add_subdirectory called with incorrect number of arguments
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/User/GreenFox/dodoo86/Week4/Day-3/Testing/cmake-build-debug/CMakeFiles/CMakeOutput.log".
