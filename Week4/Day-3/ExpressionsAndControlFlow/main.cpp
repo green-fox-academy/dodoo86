@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 
@@ -332,26 +333,92 @@ int main(int argc, char* args[]) {
 }
  */
 
-//
+//DRAW DIAMOND------------------------------------------------------------------------------
 
-
+/*
 int main(int argc, char* args[]) {
-    int rows,space;
-    int starnump;
-    int starnumm;
+    int rows,space,star;
+
 
     cout<<"Give me a number"<<endl;
     cin>>rows;
-        for (int i=0;i<rows;++i) {
-            starnump += 2;
-            for (space = 0; space < rows - i; ++space) {
+        for (int i = 0 ; i < rows/2 ; ++i) {
+            for (space = 0; space < rows/2 - i; ++space) {
                 cout << " ";
             }
-            for (int j = 0; j < i * 2 + 1; ++j) {
+            for (star = 0; star < i * 2 + 1; ++star) {
                 cout << "*";
             }
 
             cout << endl;
         }
+    for (int x = rows/2 ; x >= 0 ; --x) {
+        for (space = 0; space < rows/2 - x; ++space) {
+            cout << " ";
+        }
+        for (star = 0; star < x * 2 + 1  ; ++star) {
+            cout << "*";
+        }
+
+        cout << endl;
+    }
 return 0;
+}
+*/
+//PARAMETRIC AVERAGE--------------------------------------------------------------------------------------
+/*
+int main(int argc, char* args[]) {
+
+    // Write a program that asks for a number.
+    // It would ask this many times to enter an integer,
+    // if all the integers are entered, it should print the sum and average of these
+    // integers like:
+    //
+    // Sum: 22, Average: 4.4
+    int manyNum;
+    int num;
+    int sum=0;
+    int ave;
+    cout<<"How many numbers? "<<endl;
+    cin>>manyNum;
+    for (int i = 0; i < manyNum; ++i) {
+        cout<<"Give me the "<<manyNum-i<<".th"<<" numbers..:"<<endl;
+        cin>>num;
+        sum += num;
+    }
+    ave = sum/manyNum;
+    cout<<"Av: "<<ave<<" Sum: "<<sum<<endl;
+
+    return 0;
+}
+*/
+//DRAW A SQUARE--------------------------------------------------------------------------------
+
+int main(int argc, char* args[]) {
+
+    // Write a program that reads a number from the standard input, then draws a
+    // square like this:
+    //
+    //
+    // %%%%%%
+    // %    %
+    // %    %
+    // %    %
+    // %    %
+    // %%%%%%
+    //
+    // The square should have as many lines as the number was
+    int row,space,tag;
+
+    cout<<"Give me a number...:"<<endl;
+    cin>>row;
+    for (int i = 0; i < row; ++i) {
+       for (tag = 0; tag < row; ++tag) {
+            cout << "%";
+        }
+
+
+        cout<<endl;
+    }
+    return 0;
 }
