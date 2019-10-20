@@ -11,9 +11,9 @@ int frequency(int freq, string filename){
     if(!input.is_open()){
         cout<<"File cant be found!!!"<<endl;
     }
-    map<string,int>wordmap;
-    string word;
-    while(input>>word){
+    map<char ,int>wordmap;
+    char word;
+    while(input >> word){
         wordmap[word]++;
     }
     input.close();
@@ -23,10 +23,10 @@ int frequency(int freq, string filename){
     if(!output.is_open()){
         cout<<"Output file cant be created!!!"<<endl;
     }
-    for (pair<string,int> p : wordmap) {
-        if (p.second == freq) {
-            output << p.first << ", ";
-        }
+    for (pair<char,int> p : wordmap) {
+        //if (p.second == freq) {
+            cout << p.first << " : " << p.second<<endl;
+       // }
     }
     output.close();
     return 0;

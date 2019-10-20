@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/User/GreenFox/dodoo86/Exam_practice/Pirate/Pirate.h
+string
+-
+
+/Users/User/GreenFox/dodoo86/Exam_practice/Pirate/Ship.h
+vector
+-
+Pirate.h
+/Users/User/GreenFox/dodoo86/Exam_practice/Pirate/Pirate.h
+
+/Users/User/GreenFox/dodoo86/Exam_practice/Pirate/main.cpp
+iostream
+-
+Pirate.h
+/Users/User/GreenFox/dodoo86/Exam_practice/Pirate/Pirate.h
+Ship.h
+/Users/User/GreenFox/dodoo86/Exam_practice/Pirate/Ship.h
+
