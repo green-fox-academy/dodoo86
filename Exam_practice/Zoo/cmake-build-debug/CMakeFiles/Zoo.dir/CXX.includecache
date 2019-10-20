@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/User/GreenFox/dodoo86/Exam_practice/Zoo/Animal.h
+string
+-
+
+/Users/User/GreenFox/dodoo86/Exam_practice/Zoo/Elephant.h
+Animal.h
+/Users/User/GreenFox/dodoo86/Exam_practice/Zoo/Animal.h
+
+/Users/User/GreenFox/dodoo86/Exam_practice/Zoo/Lion.h
+Animal.h
+/Users/User/GreenFox/dodoo86/Exam_practice/Zoo/Animal.h
+
+/Users/User/GreenFox/dodoo86/Exam_practice/Zoo/Monkey.h
+Animal.h
+/Users/User/GreenFox/dodoo86/Exam_practice/Zoo/Animal.h
+
+/Users/User/GreenFox/dodoo86/Exam_practice/Zoo/Worker.h
+vector
+-
+Animal.h
+/Users/User/GreenFox/dodoo86/Exam_practice/Zoo/Animal.h
+
+/Users/User/GreenFox/dodoo86/Exam_practice/Zoo/main.cpp
+iostream
+-
+vector
+-
+Lion.h
+/Users/User/GreenFox/dodoo86/Exam_practice/Zoo/Lion.h
+Monkey.h
+/Users/User/GreenFox/dodoo86/Exam_practice/Zoo/Monkey.h
+Elephant.h
+/Users/User/GreenFox/dodoo86/Exam_practice/Zoo/Elephant.h
+Worker.h
+/Users/User/GreenFox/dodoo86/Exam_practice/Zoo/Worker.h
+

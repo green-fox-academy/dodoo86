@@ -1,0 +1,3 @@
+/Users/User/GreenFox/dodoo86/Week5/Day-2/Class_Practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/User/GreenFox/dodoo86/Week5/Day-2/Class_Practice/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/User/GreenFox/dodoo86/Week5/Day-2/Class_Practice/cmake-build-debug/CMakeFiles/Class_Practice.dir

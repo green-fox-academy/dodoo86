@@ -1,0 +1,3 @@
+/Users/User/GreenFox/dodoo86/Exam_practice/Matrices/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/User/GreenFox/dodoo86/Exam_practice/Matrices/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/User/GreenFox/dodoo86/Exam_practice/Matrices/cmake-build-debug/CMakeFiles/Matrices.dir

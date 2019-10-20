@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/GFOpractice.dir/main.cpp.o CMakeFiles/GFOpractice.dir/Person.cpp.o CMakeFiles/GFOpractice.dir/Student.cpp.o CMakeFiles/GFOpractice.dir/Mentor.cpp.o CMakeFiles/GFOpractice.dir/Sponsor.cpp.o CMakeFiles/GFOpractice.dir/Cohort.cpp.o  -o GFOpractice 

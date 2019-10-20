@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/User/GreenFox/dodoo86/Week5/Day-3/Carrier_practice/Aircraft.h
+string
+-
+
+/Users/User/GreenFox/dodoo86/Week5/Day-3/Carrier_practice/Carrier.h
+vector
+-
+Aircraft.h
+/Users/User/GreenFox/dodoo86/Week5/Day-3/Carrier_practice/Aircraft.h
+
+/Users/User/GreenFox/dodoo86/Week5/Day-3/Carrier_practice/main.cpp
+iostream
+-
+Carrier.h
+/Users/User/GreenFox/dodoo86/Week5/Day-3/Carrier_practice/Carrier.h
+

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/GoogleTest.dir/main.cpp.o CMakeFiles/GoogleTest.dir/TestApp_lib/Apple.cpp.o CMakeFiles/GoogleTest.dir/TestApp_tests/Appletest.cpp.o  -o GoogleTest TestApp_lib/libTestApp_lib.a 

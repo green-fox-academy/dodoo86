@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/User/GreenFox/dodoo86/Week5/Day-5/GoogleTest/TestApp_lib/Apple.cpp
+Apple.h
+/Users/User/GreenFox/dodoo86/Week5/Day-5/GoogleTest/TestApp_lib/Apple.h
+
+/Users/User/GreenFox/dodoo86/Week5/Day-5/GoogleTest/TestApp_lib/Apple.h
+string
+-
+
+/Users/User/GreenFox/dodoo86/Week5/Day-5/GoogleTest/TestApp_lib/Something.cpp
+Something.h
+/Users/User/GreenFox/dodoo86/Week5/Day-5/GoogleTest/TestApp_lib/Something.h
+
+/Users/User/GreenFox/dodoo86/Week5/Day-5/GoogleTest/TestApp_lib/Something.h
+

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/User/GreenFox/dodoo86/Week5/Day-5/Lofax/MyApp_lib/apple.cpp
+apple.h
+/Users/User/GreenFox/dodoo86/Week5/Day-5/Lofax/MyApp_lib/apple.h
+
+/Users/User/GreenFox/dodoo86/Week5/Day-5/Lofax/MyApp_lib/apple.h
+string
+-
+
+/Users/User/GreenFox/dodoo86/Week5/Day-5/Lofax/MyApp_lib/myClass.cpp
+myClass.h
+/Users/User/GreenFox/dodoo86/Week5/Day-5/Lofax/MyApp_lib/myClass.h
+
+/Users/User/GreenFox/dodoo86/Week5/Day-5/Lofax/MyApp_lib/myClass.h
+

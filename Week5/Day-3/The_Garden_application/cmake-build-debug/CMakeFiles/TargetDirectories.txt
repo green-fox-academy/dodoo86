@@ -1,0 +1,3 @@
+/Users/User/GreenFox/dodoo86/Week5/Day-3/The_Garden_application/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/User/GreenFox/dodoo86/Week5/Day-3/The_Garden_application/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/User/GreenFox/dodoo86/Week5/Day-3/The_Garden_application/cmake-build-debug/CMakeFiles/The_Garden_application.dir

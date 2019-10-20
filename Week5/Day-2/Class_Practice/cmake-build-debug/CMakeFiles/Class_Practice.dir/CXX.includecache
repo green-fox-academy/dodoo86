@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/User/GreenFox/dodoo86/Week5/Day-2/Class_Practice/PostIt.h
+string
+-
+
+/Users/User/GreenFox/dodoo86/Week5/Day-2/Class_Practice/main.cpp
+iostream
+-
+PostIt.h
+/Users/User/GreenFox/dodoo86/Week5/Day-2/Class_Practice/PostIt.h
+
