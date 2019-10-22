@@ -18,13 +18,38 @@ void PrintBinary(uint8_t byte) {
      * if byte is even. Use only bitwise operators!
      */
 
+void isEven(uint8_t byte){
+
+    if ((byte & 1) == 0) {
+        printf("%d true\n",byte);
+    }
+}
+
 /* 2.
  * Write a function called IsOdd which takes a byte and returns with true
  * if byte is odd. Use only bitwise operators!
  */
 
+void isOdd(uint8_t byte){
+
+    if (byte | 1){
+        printf("%d true\n",byte);
+    }
+}
+
+void isEvenOrOdd(uint8_t byte){
+
+    if (byte & 1){
+        printf("%d false\n",byte);
+    }else{
+        printf("%d true\n",byte);
+    }
+}
 
 int main() {
-    printf("Hello, World!\n");
+    uint8_t test = 0b0100;
+    //isEvenOrOdd(test);
+    isEven(test);
+    //isOdd(test);
     return 0;
 }
