@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Weekly_feedback_evaluator/main.cpp
+iostream
+-
+fstream
+-
+map
+-
+vector
+-
+

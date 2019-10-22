@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Aquarium.h
+string
+-
+vector
+-
+Fish.h
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Fish.h
+
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Clownfish.h
+Fish.h
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Fish.h
+
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Fish.h
+iostream
+-
+string
+-
+
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Kong.h
+Fish.h
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Fish.h
+
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Tang.h
+Fish.h
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Fish.h
+
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/main.cpp
+iostream
+-
+Clownfish.h
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Clownfish.h
+Tang.h
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Tang.h
+Kong.h
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Kong.h
+Aquarium.h
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Aquarium.h
+

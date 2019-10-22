@@ -1,0 +1,3 @@
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Weekly_feedback_evaluator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Weekly_feedback_evaluator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Weekly_feedback_evaluator/cmake-build-debug/CMakeFiles/Weekly_feedback_evaluator.dir

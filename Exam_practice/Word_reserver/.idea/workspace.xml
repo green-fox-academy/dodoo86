@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Word_reserver" targetName="Word_reserver" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5961dc5b-151e-4c2f-9874-c64f1afc8d43" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/Aquarium.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/Aquarium.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/Aquarium.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/Aquarium.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/Clownfish.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/Clownfish.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/Clownfish.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/Clownfish.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/Fish.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/Fish.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/Fish.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/Fish.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/Kong.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/Kong.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/Kong.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/Kong.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/Tang.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/Tang.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/Tang.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/Tang.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/cmake-build-debug/CMakeFiles/Fish_Tank.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/cmake-build-debug/CMakeFiles/Fish_Tank.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/cmake-build-debug/CMakeFiles/Fish_Tank.dir/Clownfish.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/cmake-build-debug/CMakeFiles/Fish_Tank.dir/Clownfish.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/cmake-build-debug/CMakeFiles/Fish_Tank.dir/Fish.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/cmake-build-debug/CMakeFiles/Fish_Tank.dir/Fish.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/cmake-build-debug/CMakeFiles/Fish_Tank.dir/Kong.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/cmake-build-debug/CMakeFiles/Fish_Tank.dir/Kong.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/cmake-build-debug/CMakeFiles/Fish_Tank.dir/Tang.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/cmake-build-debug/CMakeFiles/Fish_Tank.dir/Tang.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/cmake-build-debug/CMakeFiles/Fish_Tank.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/cmake-build-debug/CMakeFiles/Fish_Tank.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fish_Tank/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Fish_Tank/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1SVZg3UbfS9Hrg0TgTIcYEjUNKf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Word_reserver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Word_reserver" TARGET_NAME="Word_reserver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Word_reserver" RUN_TARGET_NAME="Word_reserver">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5961dc5b-151e-4c2f-9874-c64f1afc8d43" name="Default Changelist" comment="" />
+      <created>1571650830647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571650830647</updated>
+      <workItem from="1571650833829" duration="1110000" />
+      <workItem from="1571662586128" duration="6226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

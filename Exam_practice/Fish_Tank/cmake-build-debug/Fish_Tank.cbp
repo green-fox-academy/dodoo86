@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Fish_Tank"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fish_Tank">
+				<Option output="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Fish_Tank" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fish_Tank"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fish_Tank/fast">
+				<Option output="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Fish_Tank" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fish_Tank/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Aquarium.cpp">
+			<Option target="Fish_Tank"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Aquarium.h">
+			<Option target="Fish_Tank"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Clownfish.cpp">
+			<Option target="Fish_Tank"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Clownfish.h">
+			<Option target="Fish_Tank"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Fish.cpp">
+			<Option target="Fish_Tank"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Fish.h">
+			<Option target="Fish_Tank"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Kong.cpp">
+			<Option target="Fish_Tank"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Kong.h">
+			<Option target="Fish_Tank"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Tang.cpp">
+			<Option target="Fish_Tank"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/Tang.h">
+			<Option target="Fish_Tank"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/main.cpp">
+			<Option target="Fish_Tank"/>
+		</Unit>
+		<Unit filename="/Users/User/GreenFox/Exam_Retake/chama-foundation-retake-exam/Fish_Tank/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
