@@ -12,7 +12,7 @@ The parameters should be:
  - and an integer that represents how many sandwiches you want to order
 */
 typedef struct {
-    char name;
+    char name[8];
     float price;
     float weight;
 }Sandwich_a;
@@ -24,6 +24,6 @@ float total(Sandwich_a sandwich,int price){
 int main() {
     Sandwich_a Hamms = {"Burger",11.f,2.5f};
 
-    printf("%2f\n",total(Hamms,4));
+    printf("%.2f\n",total(Hamms,4));
     return 0;
 }
