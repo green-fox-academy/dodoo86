@@ -7,6 +7,7 @@
 // the resulting array should be 20 elements long
 // print the array in descending order
 // delete the arrays after you don't use them
+
 void swap(int *xp, int *yp){
     int tmp = *xp;
     *xp = *yp;
@@ -47,14 +48,13 @@ int main()
         pointer1[k] = pointer2[k-10];
     }
     free(pointer2);
-   // for (int j = 0; j < 20 ; ++j) {
-        //printf("%d, ",pointer1[j]);
-    //}
+
     int b = 20;
     sort(pointer1,b);
     for (int j = 0; j < 20 ; ++j) {
         printf("%d, ", pointer1[j]);
     }
     free(pointer1);
+
     return 0;
 }
