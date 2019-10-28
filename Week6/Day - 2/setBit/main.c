@@ -22,9 +22,9 @@ void PrintBinary(uint8_t byte) {
 
 u_int8_t Set_Bit(uint8_t byte, char bit){
 
-    u_int8_t bitMask = 0b1 << bit;
+    u_int8_t bitMask = 1 << bit;
 
-    return byte ^ bitMask;
+    return byte | bitMask;
 }
 
 /*
@@ -35,7 +35,7 @@ u_int8_t Set_Bit(uint8_t byte, char bit){
 
 u_int8_t ClearBit(uint8_t byte, char bit){
 
-    u_int8_t bitMask = 0b1 << bit;
+    u_int8_t bitMask = 1 << bit;
 
     bitMask = ~bitMask;
 

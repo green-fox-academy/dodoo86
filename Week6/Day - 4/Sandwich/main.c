@@ -12,13 +12,13 @@ The parameters should be:
  - and an integer that represents how many sandwiches you want to order
 */
 typedef struct {
-    char name[8];
+    char* name;
     float price;
     float weight;
 }Sandwich_a;
 
-float total(Sandwich_a sandwich,int price){
-    return price * sandwich.price;
+float total(Sandwich_a sandwich,int amount){
+    return amount * sandwich.price;
 }
 
 int main() {
