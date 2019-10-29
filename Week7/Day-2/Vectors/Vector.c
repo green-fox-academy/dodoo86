@@ -24,6 +24,29 @@ void push_back (vector_t* vec, int new_data, error_t* result){
     vec->size++;
 }
 
+void addElement (vector_t* vec,int new_data, int index, error_t* result) {
+
+        *result = NO_ERROR;
+
+    if (vec->size >= vec->capacity){
+        vec->capacity *= 2;
+        vec->data = (int*)realloc(vec->data,vec->capacity * sizeof(int));
+    }
+    for (int j = vec->size; j > index; --j) {
+        vec->data[j]=vec->data[j-1];
+    }
+    vec->size++;
+
+    vec->data[index] = new_data;
+}
+
+void overwriteElement (vector_t* vec,int new_data, int index, error_t* result) {
+
+        *result = NO_ERROR;
+        vec->data[index] = new_data;
+
+}
+
 int element_at (vector_t* vec, int at, error_t* result){
     *result = NO_ERROR;
     if (at< 0 || at > vec->size -1){
@@ -62,4 +85,14 @@ void print (vector_t* vec, error_t* result){
     printf("}\n");
 }
 
+int searchElement (vector_t* vec,int search) {
+    //*result = NO_ERROR;
 
+    for (int i = 0; i < vec->size; ++i) {
+        if (vec->data[i] == search) {
+            return i;
+        }
+    }
+    printf("Cant be found!!!\n");
+    return -1;
+}

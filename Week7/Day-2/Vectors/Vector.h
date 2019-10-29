@@ -19,10 +19,13 @@ typedef struct vector {
 
 void init(vector_t* vec, int size, error_t* result);
 void push_back (vector_t* vec, int new_data, error_t* result);
+void overwriteElement (vector_t* vec,int new_data,int index,error_t* result);
+void addElement (vector_t* vec,int new_data,int index,error_t* result);
 int element_at (vector_t* vec, int at, error_t* result);
 void pop_back (vector_t* vec, error_t* result);
 void destroy (vector_t* vec,error_t* result);
 void print (vector_t* vec,error_t* result);
+int searchElement (vector_t* vec, int search);
 
 
 
