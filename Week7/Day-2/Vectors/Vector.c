@@ -14,6 +14,15 @@ void init(vector_t* vec, int size, error_t* result){
     vec->size = 0;
 }
 
+int sizeOfVect(vector_t* vec){
+    return vec->size;
+}
+
+int capacity(vector_t* vec){
+    int remain = vec->capacity - vec->size ;
+    return remain;
+}
+
 void push_back (vector_t* vec, int new_data, error_t* result){
     *result = NO_ERROR;
     if(vec->size >= vec->capacity){
@@ -24,7 +33,7 @@ void push_back (vector_t* vec, int new_data, error_t* result){
     vec->size++;
 }
 
-void addElement (vector_t* vec,int new_data, int index, error_t* result) {
+void addElementByIndex (vector_t* vec,int new_data, int index, error_t* result) {
 
         *result = NO_ERROR;
 
@@ -38,6 +47,16 @@ void addElement (vector_t* vec,int new_data, int index, error_t* result) {
     vec->size++;
 
     vec->data[index] = new_data;
+}
+
+void deleteByIndex(vector_t* vec, int index, error_t* result){
+    *result = NO_ERROR;
+
+    for (int i = index; i < vec->size ; ++i) {
+        vec->data[i] = vec->data[i+1];
+    }
+    vec->size--;
+
 }
 
 void overwriteElement (vector_t* vec,int new_data, int index, error_t* result) {

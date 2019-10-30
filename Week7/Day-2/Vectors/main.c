@@ -15,10 +15,20 @@ int main() {
 
     //pop_back(&vecOne,&res);
 
-    addElement(&vecOne,77,4,&res);
-    int x = searchElement(&vecOne,99);
-    printf("the element is on %d index\n",x);
+    addElementByIndex(&vecOne,77,4,&res);
+    int x = searchElement(&vecOne,4);
+    printf("The element is on %d index\n",x);
 
+    print(&vecOne,&res);
+    int y = sizeOfVect(&vecOne);
+    printf("The size is: %d\n",y);
+
+    int a = capacity(&vecOne);
+    printf("The remaining capacity is: %d\n",a);
+
+    //pop_back(&vecOne,&res);
+    print(&vecOne,&res);
+    deleteByIndex(&vecOne,2,&res);
     print(&vecOne,&res);
 
     destroy(&vecOne,&res);
