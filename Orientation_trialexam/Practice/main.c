@@ -322,6 +322,27 @@ int same_digivolution_level_count (struct digimon *digi, int size, evolution_lev
     }return count;
 }
 
+int get_same_tamer(struct digimon *digi,int size,const char *tamename){
+    int count = 0;
+    for (int i = 0; i < size; ++i) {
+        if(digi[i].tamename == tamename){
+            count++;
+        }
+    }
+    return count;
+}
+
+float average_health(struct digimon *digi,int size,const char *tamename) {
+    int count = 0;
+    float avrg = 0;
+    for (int i = 0; i < size; ++i) {
+        if (digi[i].tamename == tamename) {
+            count++;
+            avrg += (float) digi[i].health;
+        }
+    }
+    return avrg / (float)count;
+}
 int main(){
 
 
@@ -329,14 +350,15 @@ int main(){
             {"Bela",11,85,"Karoly",champion},
             {"Sandor",55,32,"Levi",champion},
             {"Tibi",9,54,"Csabi",baby},
-            {"Balint",33,9,"Laci",champion},
+            {"Balint",33,18,"Levi",champion},
     };
 
     int size = sizeof(digi)/ sizeof(digi[0]);
 
     printf("The digimon who has the lowest healt is the %d-th, in the array\n", get_minimum_health(digi,size));
     printf("There is %d same leveled Digimon in the array\n ",same_digivolution_level_count(digi,size,champion));
-
+    printf("There is %d digimon with tamer Levi\n",get_same_tamer(digi,size,"Levi"));
+    printf("The average is %0.2f\n",average_health(digi,size,"Levi"));
     return 0;
 }
 
